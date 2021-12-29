@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            background-color: orange;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        #header .qooqoo img {
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+        }
+        #header .qooqoo {
+            border-radius: 100%;
+            border: 10px solid rgba(255, 255, 255, 0.5);
+            display: inline-block;
+        }
+        #header h1 {
+            font-size: 1.5rem;
+            font-weight: 200;
+        }
+        #header strong {
+            color: white;
+            border-bottom: 1px dotted white;
+        }
+        #header strong:hover {
+            color: yellow;
+            font-size: 3rem;
+            border-bottom: 1px dotted yellow;
+        }
+        #main {
+            display: flex;
+        }
+        #main div {
+            padding-top: 1rem;
+            flex-grow: 1;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+        #main img {
+            width: 100%;
+            border-radius: 20px;
+            animation-duration: 3s;
+            animation-name: slide;
+        }
+        @keyframes slide {
+            from {
+                margin-left: 100%;
+            }
+        }
+        #main h3 {
+            font-size: 1rem;
+            font-weight: 200;
+            text-align: center;
+        }
+        #main h3:hover {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <span class="qooqoo"><img src="qooqoo-main.jpg" alt="쿠우쿠우"></span>
+            <h1>12월 25일 크리스마스에 방문했었던 <strong>쿠우쿠우</strong>에서 좋은 추억</h1>
+        </header>
+
+        <section id="main">
+            <div>
+                <img src="qooqoo1.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+                <img src="qooqoo2.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+            </div>
+            <div>
+                <img src="qooqoo3.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+                <img src="qooqoo4.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+            </div>
+            <div>
+                <img src="qooqoo5.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+                <img src="qooqoo6.jpg" alt="">
+                <h3>엄마랑 아빠랑</h3>
+            </div>
+
+        </section>
+
+    </div>
+</body>
+</html>
