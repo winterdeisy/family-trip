@@ -33,9 +33,9 @@
             border-bottom: 1px dotted white;
         }
         #header strong:hover {
-            color: yellow;
+            color: red;
             font-size: 3rem;
-            border-bottom: 1px dotted yellow;
+            border-bottom: 1px dotted red;
         }
         #main {
             display: flex;
@@ -51,6 +51,7 @@
             border-radius: 20px;
             animation-duration: 3s;
             animation-name: slide;
+            border: 5px solid rgba(255, 255, 255, 0.5);
         }
         @keyframes slide {
             from {
@@ -61,9 +62,18 @@
             font-size: 1rem;
             font-weight: 200;
             text-align: center;
+            display: none;
         }
         #main h3:hover {
             font-size: 2rem;
+        }
+        #letter {
+            background-color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+        }
+        #letter h3 {
+            font-weight: 200;
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -71,30 +81,48 @@
     <div class="wrapper">
         <header id="header">
             <span class="qooqoo"><img src="qooqoo-main.jpg" alt="쿠우쿠우"></span>
+            
             <h1>12월 25일 크리스마스에 방문했었던 <strong>쿠우쿠우</strong>에서 좋은 추억</h1>
         </header>
 
         <section id="main">
             <div>
+                <span>
                 <img src="qooqoo1.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
+            <span>
                 <img src="qooqoo2.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
             </div>
             <div>
+                <span>
                 <img src="qooqoo3.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
+            <span>
                 <img src="qooqoo4.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
             </div>
             <div>
+                <span>
                 <img src="qooqoo5.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
+                <span>
                 <img src="qooqoo6.jpg" alt="">
                 <h3>엄마랑 아빠랑</h3>
+            </span>
             </div>
 
         </section>
+        <footer id="letter">
+            <h3>
+                채원이가 많이 사랑하는거 아시죠?♡
+            </h3>
+        </footer>
 
     </div>
 </body>
