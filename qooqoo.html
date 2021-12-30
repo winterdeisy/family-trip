@@ -12,7 +12,7 @@
     <style>
         body {
             background-image: url('watercolor.jpg');
-            font-family: 'Cinzel', serif;;
+            font-family: 'Cinzel', serif;
         }
         #header {
             text-align: center;
@@ -29,6 +29,9 @@
             border: 10px solid rgba(255, 255, 255, 0.5);
             display: inline-block;
         }
+        #header .qooqoo:hover {
+            border: 10px solid white;
+        }
         #header .qooqoo img:hover {
             width: 400px;
             height: 400px;
@@ -42,9 +45,6 @@
         }
         #header strong {
             font-size: 4rem;
-            color: white;
-        }
-        #header strong:hover {
             color: red;
         }
         #header ul {
@@ -54,7 +54,7 @@
             font-size: 1rem;
             text-decoration: none;
             list-style: none;
-            color: white;
+            color: black;
         }
         #header li:hover {
             background-color: rgb(255, 131, 131);
@@ -76,7 +76,7 @@
             border: 5px solid rgba(255, 255, 255, 0.5);
         }
         #main img:hover {
-            border: 10px solid rgba(255, 255, 255, 0.5);
+            transform: translateY(-30px);
 
         }
         @keyframes slide {
